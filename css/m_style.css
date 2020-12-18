@@ -1,0 +1,54 @@
+*{margin: 0;}
+
+html{font-size: 10px;}
+body{font-size: 1rem;}
+a{text-decoration: none;color: #ffffff;}
+
+header{height: 7.9rem;}
+header > nav{margin: auto;display: flex;justify-content: space-between;align-items: center;}
+header > nav > .logo{display: inline-block;padding: 2.1rem 0rem 1.9rem 4.0rem;}
+header > nav > .menu{display: inline-block;padding-right: 4.0rem;}
+
+header > .nav_menu{position: relative;display: none;}
+header > .nav_menu > ul{display: inline-block;width: 100%;padding: 0rem 0rem;}
+header > .nav_menu > ul > li{list-style: none;text-align: right;background-color: #4269ED;padding: 1.3rem 2.3rem;border-bottom: 1px solid #ffffff;}
+header > .nav_menu > ul > li > a{font-family: 'Noto Sans KR', sans-serif;font-size: 1.7rem;font-weight: 500;}
+
+header > .nav_menu.active{display: flex;}
+
+section > .top{background-image: url('../img/m_i_04_keyvisual.png');height: 57rem; text-align: center;}
+section > .top > img{padding-top: 28.5rem; padding-left:15.3rem;}
+
+section > .profile{background-image: url('../img/m_i_05_pro_back.png'); height: 105.6rem; text-align: center;}
+section > .profile > .pf_01{padding-top: 4.5rem;}
+section > .profile > .pf_02, .pf_03, .pf_04, .pf_05{margin-top: 4.0rem;}
+
+footer{background-color: #C4C4C4;height: 11rem;text-align: center;}
+footer > img{padding-top: 1.7rem;}
+
+/*--서브01--*/
+section > .sub_01_top{background-image: url('../img/m_s01_02.png');height: 41.7rem; text-align: center;}
+section > .sub_01_top  > img{padding-top: 9.8rem;}
+section > .sub_01_cont01{height: 48.5rem;}
+section > .sub_01_cont02{height: 32.5em;}
+section > .sub_01_cont03{height: 42.5rem;}
+/*--서브02--*/
+section > .sub_02_top{background-image: url('../img/m_s01_02.png');height: 41.7rem; text-align: center;}
+section > .sub_02_top > img{padding-top: 9.8rem;}
+section > .sub_02_cont01{height: 48.3rem;}
+section > .sub_02_cont02{height: 50.5em;}
+section > .sub_02_cont03{height: 42rem;}
+section > .sub_02_cont04{height: 42.9rem;}
+/*--서브03--*/
+section > .sub_03_top{background-image: url('../img/m_s03_02.png');height: 41.7rem; text-align: center;}
+section > .sub_03_top > img{padding-top: 9.8rem;}
+section > .sub_03_cont01{height: 49.3rem;}
+section > .sub_03_cont02{height: 72.3em;}
+section > .sub_03_cont03{height: 46.5rem;}
+/*--서브04--*/
+section > .sub_04_top{background-image: url('../img/m_s04_02.png');height: 41.7rem; text-align: center;}
+section > .sub_04_top > img{padding-top: 9.8rem;}
+section > .sub_04_cont01{height: 49.4rem;}
+section > .sub_04_cont02{height: 52.1em;}
+section > .sub_04_cont03{height: 38.5rem;}
+section > .sub_04_cont04{height: 39.5rem;}
